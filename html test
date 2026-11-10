@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gourmet Burger Bar & Grill - Home</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9fafb; color: #1f2937; }
+        header { background: #111827; color: white; padding: 2rem; text-align: center; }
+        main { max-width: 800px; margin: 40px auto; padding: 0 20px; }
+        h1 { margin-top: 0; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Gourmet Burger Bar & Grill</h1>
+        <p>Welcome to our official website!</p>
+    </header>
+
+    <main>
+        <h2>About Us</h2>
+        <p>We serve the juiciest craft burgers, hand-cut fries, and coldest craft beers in town. Have questions about our menu or private party catering? Click the chat bubble in the bottom right corner to talk to our virtual assistant!</p>
+    </main>
+
+    <!-- LOAD WIDGET DIRECTLY FROM GITHUB -->
+    <script src="https://raw.githubusercontent.com/abdullahderyayev5-pixel/i-chat-widget/main/widget.js" data-client-id="661c8316-3585-4a24-8543-b3d7b3b30c37" async></script>
+
+</body>
+</html>
