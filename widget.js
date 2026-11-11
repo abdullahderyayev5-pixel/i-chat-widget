@@ -48,7 +48,7 @@
             bottom: 12px;
             background: white;
             color: #1f2937;
-            padding: 6px 12px;
+            padding: 8px 14px;
             border-radius: 20px;
             font-size: 13px;
             font-weight: 600;
@@ -104,7 +104,7 @@
     const wrapper = document.createElement('div');
     wrapper.id = 'store-ai-chat-wrapper';
     wrapper.innerHTML = `
-        <div class="ai-tooltip">Chat with AI ✨</div>
+        <div class="ai-tooltip">Chat with AI assistant ✨</div>
         <div id="store-ai-chat-container">
             <div class="chat-header">
                 <span>Store Virtual Assistant</span>
