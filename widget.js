@@ -42,6 +42,20 @@
         #store-ai-chat-bubble:hover {
             transform: scale(1.05);
         }
+        .ai-tooltip {
+            position: absolute;
+            right: 75px;
+            bottom: 12px;
+            background: white;
+            color: #1f2937;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 600;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            white-space: nowrap;
+            pointer-events: none;
+        }
         #store-ai-chat-container {
             display: none;
             width: 380px;
@@ -90,6 +104,7 @@
     const wrapper = document.createElement('div');
     wrapper.id = 'store-ai-chat-wrapper';
     wrapper.innerHTML = `
+        <div class="ai-tooltip">Chat with AI ✨</div>
         <div id="store-ai-chat-container">
             <div class="chat-header">
                 <span>Store Virtual Assistant</span>
