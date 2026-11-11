@@ -24,7 +24,6 @@
     </main>
 
     <!-- LOAD WIDGET DIRECTLY FROM GITHUB -->
-   <script src="https://raw.githubusercontent.com/abdullahderyayev5-pixel/i-chat-widget/main/widget.js?v=3" data-client-id="661c8316-3585-4a24-8543-b3d7b3b30c37" async></script>
-
+   <script src="https://cdn.jsdelivr.net/gh/abdullahderyayev5-pixel/i-chat-widget@main/widget.js" data-client-id="661c8316-3585-4a24-8543-b3d7b3b30c37" async></script>
 </body>
 </html>
